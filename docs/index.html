@@ -1,12 +1,12 @@
-    <!doctype html>
+<!doctype html>
 
-    <html lang=en=>
+<html lang=en=>
 
-    <head>
+<head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>matter &mdash; A barebones PostCSS boilerplate</title>
+    <title>matter &mdash; A barebones PostCSS boilerplate</title>
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
     <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-touch-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-touch-icon-60x60.png">
@@ -19,10 +19,10 @@
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon-180x180.png">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="apple-mobile-web-app-title" content="webpack2-postcss-boilerplate">
+    <meta name="apple-mobile-web-app-title" content="matter">
     <meta name="mobile-web-app-capable" content="yes">
-    <meta name="theme-color" content="#4777ff">
-    <meta name="application-name" content="webpack2-postcss-boilerplate">
+    <meta name="theme-color" content="#FDEF81">
+    <meta name="application-name" content="matter">
     <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="192x192" href="favicon/android-chrome-192x192.png">
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
@@ -38,135 +38,120 @@
     <link rel="apple-touch-sectionup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: landscape) and (-webkit-device-pixel-ratio: 2)" href="favicon/apple-touch-sectionup-image-1496x2048.png">
     <link rel="apple-touch-sectionup-image" media="(device-width: 768px) and (device-height: 1024px) and (orientation: portrait) and (-webkit-device-pixel-ratio: 2)" href="favicon/apple-touch-sectionup-image-1536x2008.png">
 
-<link rel="stylesheet" href="./css/matter.css">
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Space+Mono:300,400,700|Roboto+Mono:300,400" rel="stylesheet">
+    <link rel="stylesheet" href="./css/matter.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800|Space+Mono:300,400,700|Roboto+Mono:300,400" rel="stylesheet">
 <link href="../css/matter.css" rel="stylesheet"></head>
+
 <body>
-<div class="container">
+    <div class="container">
         <header class="header">
             <div class="header__section">
                 <div class="header__brand"><a href="#">matter</a></div>
             </div>
             <div class="header__section">
                 <div class="header__nav">
-                    <div class="header__item"><a href="#">Docs</a></div>
-                    <div class="header__item"><a href="#">Download</a></div>
-                    <div class="header__item"><a href="#">GitHub</a></div>
+                    <div class="header__item"><a href="https://github.com/wad3g/matter/archive/master.zip" rel="noopener">Download</a></div>
+                    <div class="header__item"><a href="https://github.com/wad3g/matter" >GitHub</a></div>
                 </div>
             </div>
-      </div>
-      </header>
+    </div>
+    </header>
 
-  <div class="hero">
+    <div class="hero">
         <div class="hero__bg">
-              <div class="hero__title">matter</div>
-              <div class="hero__sub-title">A boilerplate for <em>SpaceGrid</em> using PostCSS & Webpack </div>
+            <div class="hero__title">matter</div>
+            <div class="hero__sub-title">A boilerplate for <em>SpaceGrid</em> using PostCSS & Webpack </div>
         </div>
-  </div>
+    </div>
 
-  <section class="about">
-    <div class="about__container">
-      <h2 class="about__title">Features</h2>
-      <h4 class="about__sub-title">
+    <section class="about">
+        <div class="about__container">
+            <h2 class="about__title">Features</h2>
+            <h4 class="about__sub-title">
           The best fucking shit, <strong>ever</strong>.
       </h4>
-      <div class="about__content-container row">
-      <div class="about__content space-2">
+            <div class="about__content-container row">
+                <div class="about__content space-2">
                     <h3 class="about__content-title">Spacegrid</h3>
                     <p>
-A basic, responsive grid layout to help you get started on your next project.
+                        A basic, responsive grid layout to help you get started on your next project. <a href="https://github.com/JonathanSpeek/spacegrid" rel="noopener">View Project</a>
                     </p>
                 </div>
 
-      <div class="about__content space-2">
-          <h3 class="about__content-title">PostCSS</h3>
-         <p>
-             PostCSS plugins targeting consistency with the CSS4 specification.
-         </p>
-  </div>
-  </div>
-  <div class="about__content-container row">
-      <div class="about__content space-2">
-          <h3 class="about__content-title">Optimization &amp; Minification</h3>
-         <p>
-             CSS &amp; Image  optimization/minification with cssnano and image-min.
-         </p>
-    </div>
-  <div class="about__content space-2">
-                <h3 class="about__content-title">Additional Features</h3>
-                <p>
-                    Matter includes many other features for easy, fast local development including:
-                <ul>
-                    <li>
-                        Webpack 2
-                    </li>
-                    <li>
-                        ES2015
-                    </li>
-                    <li>
-                        Browsersync
-                    </li>
-                    <li>
-                        Minification
-                    </li>
-                   <li>
-                       Sourcemapping
-                   </li>
-                </ul>
-            </p>
+                <div class="about__content space-2">
+                    <h3 class="about__content-title">PostCSS</h3>
+                    <p>
+                        PostCSS plugins targeting consistency with the CSS4 specification.
+                    </p>
+                </div>
             </div>
-</div>
-</div>
-  </section>
+            <div class="about__content-container row">
+                <div class="about__content space-2">
+                    <h3 class="about__content-title">Optimization &amp; Minification</h3>
+                    <p>
+                        CSS &amp; Image optimization/minification with cssnano and image-min.
+                    </p>
+                </div>
+                <div class="about__content space-2">
+                    <h3 class="about__content-title">Additional Features</h3>
+                    <p>
+                        Matter includes many other features for easy, fast local development including:
+                        <ul>
+                            <li>Webpack 2</li>
+                            <li>ES2015</li>
+                            <li>Browsersync</li>
+                            <li>Minification</li>
+                            <li>Sourcemapping</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <section class="start">
-      <div class="start__container">
-      <h2 class="start__title">Getting Started</h2>
-      <h4 class="start__sub-title">
-          Get the app running for local developement.
-      </h4>
+    <section class="start">
+        <div class="start__container">
+            <h2 class="start__title">Getting Started</h2>
+            <h4 class="start__sub-title"> Get the app running for local developement.</h4>
 
-      <div class="start__content-container row">
-          <div class="start__content space-1">
-              <div class="start__content-title">
-                  Clone the repo
-              </div>
-              <pre class="code">
+            <div class="start__content-container row">
+                <div class="start__content space-1">
+                    <div class="start__content-title">
+                        Clone the repo
+                    </div>
+                    <pre class="code">
                   <code>git clone https://github.com/wad3g/matter.git
 cd matter</code></pre>
-          </div>
-          <div class="start__content space-1">
-              <div class="start__content-title">
-                  Install dependencies with <code>yarn</code> or <code>npm</code>
-              </div>
+                </div>
+                <div class="start__content space-1">
+                    <div class="start__content-title">
+                        Install dependencies with <code>yarn</code> or <code>npm</code>
+                    </div>
                     <pre>
                         <code>yarn install</code></pre>
                     <pre>
                         <code>npm i</code></pre>
-          </div>
-          <div class="start__content space-1">
-              <div class="start__content-title">
-                  Start for local developing and begin watching files for compilation
-              </div>
-              <pre>
+                </div>
+                <div class="start__content space-1">
+                    <div class="start__content-title">
+                        Start for local developing and begin watching files for compilation
+                    </div>
+                    <pre>
                   <code>yarn start</code></pre>
-          </div>
-      </div>
-  </div>
-  </section>
+                </div>
+            </div>
+        </div>
+    </section>
 
-  <footer class="footer">
-      <div class="footer__nav">
-          <a class="footer__item" href="#"rel="noopener">Documentation</a>
-          <a class="footer__item" href="#" rel="noopener">Github</a>
-          <a class="footer__item" href="http://www.linkedin.com/in/wadegarrett/" rel="noopener">Download</a>
-      </div>
-      <div class="footer__copy">
-          <p>&copy; 2017 matter. All rights reserved.</p>
-      </div>
-  </footer>
-  </div>
-
-
+    <footer class="footer">
+        <div class="footer__nav">
+            <a class="footer__item" href="https://github.com/wad3g/matter/archive/master.zip" rel="noopener">Download</a>
+            <a class="footer__item" href="https://github.com/wad3g/matter" rel="noopener">Github</a>
+        </div>
+        <div class="footer__copy">
+            <p>&copy; 2017 matter. All rights reserved.</p>
+        </div>
+    </footer>
+    </div>
 <script type="text/javascript" src="../js/bundle.js"></script></body>
 </html>
