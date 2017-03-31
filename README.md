@@ -1,5 +1,7 @@
 # matter
-A boilerplate for [SpaceGrid](https://github.com/JonathanSpeek/spacegrid) using PostCSS & Webpack 
+A boilerplate for [SpaceGrid](https://github.com/JonathanSpeek/spacegrid) using PostCSS & Webpack.
+
+Forked from an earlier version of [Timber](https://github.com/wad3g/timber).
 
 ## Features
 - [x] [SpaceGrid](https://github.com/JonathanSpeek/spacegrid)
